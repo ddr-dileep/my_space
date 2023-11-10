@@ -1,0 +1,21 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-image: url("./../assets/photo-1695380382549-c3bf3cbf470b.avif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+  &-main{
+    background-color: #080808a0;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
